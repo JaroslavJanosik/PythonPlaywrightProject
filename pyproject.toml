@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pythonplaywright"
+version = "0.1.0"
+description = "Test framework using Python, Pytest and Playwright"
+authors = ["Jaroslav Janosik <jarajz.janosik@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+playwright = "^1.30.0"
+pytest-playwright = "^0.4.3"
+pytest = "^7.4.2"
+pytest-xdist = "^3.3.1"
+pytest-bdd = "^6.1.1"
+pytest-html = "^4.0.2"
+google-api-python-client = "^2.103.0"
+google-auth-oauthlib = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
